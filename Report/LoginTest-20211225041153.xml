@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<testsuite name="LoginTest-20211225041153" tests="1" time="0.000" failures="0" errors="1">
+	<testcase classname="LoginTest" name="LoginTest" time="0.000">
+	</testcase>
+	<system-out><![CDATA[Login Successfully : Welcome to CRM portal
+logged out from CRM portal
+Failed to Login : Please check your Email Id & Password
+The email & password field's are required
+Failed to navigate password recovery page
+Failed to signup account
+Failed to Login with new password : Please check your Email Id & Password
+Failed to update user profile details
+URL is down
+Failed to Login : Please check your Email Id & Password
+Failed to upload resume details into CRM portal
+Test Completed
+]]></system-out>
+	<system-err><![CDATA[C:\Users\kosur\PycharmProjects\CRM\POMProject\Tests\TestCase1.py:18: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  cls.driver: WebDriver = webdriver.Chrome(executable_path=chrome)
+]]></system-err>
+</testsuite>
